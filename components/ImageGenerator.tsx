@@ -99,7 +99,7 @@ export const ImageGenerator: React.FC = () => {
                   value={prompt}
                   onChange={(e) => setPrompt(e.target.value)}
                   placeholder="Bijv: een mijnwerker met een helm"
-                  className="w-full p-4 text-lg border-2 border-stone-200 rounded-xl focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 focus:outline-none"
+                  className="w-full p-4 text-lg bg-white text-stone-800 border-2 border-stone-200 rounded-xl focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100 focus:outline-none placeholder:text-stone-400"
                 />
              </div>
 

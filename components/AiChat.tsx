@@ -132,7 +132,7 @@ export const AiChat: React.FC = () => {
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={handleKeyPress}
             placeholder="Typ hier je vraag..."
-            className="flex-1 p-3 border-2 border-stone-200 rounded-xl focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100 transition-all"
+            className="flex-1 p-3 bg-white text-stone-800 border-2 border-stone-200 rounded-xl focus:outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-100 transition-all placeholder:text-stone-400"
             disabled={isLoading}
           />
           <button
